@@ -1,0 +1,28 @@
+.input-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-check input {
+    margin-right: 1rem;
+}
+
+input {
+    all: inherit;
+    border: 0.1px solid gray;
+    width: 24px;
+    height: 24px;
+    border-radius: 0.8rem;
+}
+
+.input-check input:checked {
+    background-color: var(--color-secondary);
+    background-image: url('../../../../assets/img/icons/check.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    font-size: 1.4rem;
+}

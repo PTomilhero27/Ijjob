@@ -1,0 +1,15 @@
+a.button-forgots {
+    width: 100%;
+    height: 5.6rem;
+    border-radius: 0.8rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    border: 1px solid var(--color-line-in-white);
+    background: var(--color-primary);
+    color: var(--color-text-complement);
+}
+
+a.button-forgots p {
+    margin: 1.5rem auto;
+    text-align: center;
+}

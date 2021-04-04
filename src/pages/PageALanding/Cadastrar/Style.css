@@ -1,0 +1,21 @@
+.voltar {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+}
+
+.button-cadastro {
+    width: 350px;
+    height: 5.6rem;
+    margin-top: 3rem;
+    border-radius: 0.8rem;
+    border: 1px solid var(--color-line-in-white);
+    background: var(--color-secondary);
+    color: var(--color-text-title);
+}
+
+@media (min-width: 700px) {
+    .voltar {
+        left: 13%;
+    }
+}

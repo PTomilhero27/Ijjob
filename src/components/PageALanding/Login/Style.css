@@ -1,0 +1,24 @@
+.login-text {
+    align-self: flex-start;
+}
+
+.login-text h2 {
+    margin: 3rem auto;
+    font: 600 3.6rem Poppins;
+    line-height: 3.6rem;
+    color: var(--color-text-title);
+}
+
+.login-text p {
+    max-width: 213px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 700px) {
+    .login-cadastrar p,
+    .login-cadastrar span {
+        margin-bottom: -30rem;
+    }
+}

@@ -1,0 +1,56 @@
+#page-landing,
+#page-landingTwo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#page-landing-right {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text-in-primary);
+    background: var(--color-primary);
+    background-image: url('../../../assets/img/Background.svg');
+    background-repeat: no-repeat;
+}
+
+#page-landing-left {
+    width: 100vw;
+    height: 20vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+@media (min-width: 700px) {
+    #page-landing {
+        display: flex;
+        flex-direction: row;
+    }
+    #page-landingTwo {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #page-landing-right {
+        height: 100vh;
+    }
+    #page-landing-left {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .login-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
